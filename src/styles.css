@@ -44,6 +44,7 @@ body {
 	--tiltX: 0deg;
 	--tiltY: 0deg;
 	transform: rotateX(var(--tiltX)) rotateY(var(--tiltY));
+	touch-action: manipulation;
 }
 
 .plus-one {
