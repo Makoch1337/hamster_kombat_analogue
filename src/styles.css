@@ -8,6 +8,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: #1c1f24;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header {
@@ -50,7 +51,7 @@ body {
 .plus-one {
 	position: absolute;
 	text-shadow: 0 0 4px rgba(234, 182, 61, 0.3);
-	font-size: 40px;
+	font-size: 70px;
 	font-weight: 800;
 	background: linear-gradient(180deg, rgba(255, 133, 214, 0.333) 0%, rgb(255, 220, 25) 100%);
 	background-clip: text;
@@ -61,14 +62,19 @@ body {
 	animation: move-up 2s forwards;
 }
 
+.jscoin {
+	position: absolute;
+	animation: move-up 2s forwards;
+}
+
 @keyframes move-up {
 	0% {
-		opacity: 1;
+		opacity: 2;
 		transform: translateY(0);
 	}
 
 	100% {
 		opacity: 0;
-		transform: translateY(-40px);
+		transform: translateY(-480px);
 	}
 }
