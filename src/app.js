@@ -52,6 +52,4 @@ $circle.addEventListener('click', (event) => {
     }, 500)
 })
 
-localStorage.clear()
-
 start()
